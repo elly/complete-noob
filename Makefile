@@ -8,6 +8,6 @@ book.dvi : book.tex
 	latex book.tex
 	latex book.tex
 clean :
-	rm -f book.pdf book.aux book.log book.toc book.dvi
+	rm -f book.pdf book.aux book.log book.toc book.dvi book.ps
 
 .PHONY : clean
